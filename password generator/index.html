@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>password generator</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<style type="text/css">
+        div{
+            margin: 50px;
+        }
+</style>
+<body>
+    <div class="jumbotron" class="col-sm-6" style="width: 750px;">
+ <form action="" style="align-content: center;">
+  <div class="form-group">
+    <label for="text">My Random Password</label>
+    <input type="text" class="form-control" id="passgen">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox" onclick="cPass()">Copy?</label>
+  </div>
+  <button class="btn btn-danger" onclick="getPass()" style="align-content: center;">Generate</button>
+</form>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>

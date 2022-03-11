@@ -1,0 +1,11 @@
+{
+    "name": "password generator",
+    "version": "1.0.0",
+    "description": "Generates a random password",
+    "manifest_version": 3,
+    "author": "Brandon Morgan",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Your secure passwords"
+    }
+}
